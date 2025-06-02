@@ -5,5 +5,8 @@
 const uniqueNumbers = new Set();
 
 // Your code here
-
+uniqueNumbers.add(5)
+uniqueNumbers.add(8)
+console.log(uniqueNumbers);
+uniqueNumbers.add(5)
 console.log(uniqueNumbers);

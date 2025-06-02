@@ -6,5 +6,7 @@
 const numbers = [1, 2, 3];
 
 // Your code here
-
+const newNumbers = [...numbers]
+newNumbers.push(8)
+newNumbers.push(80)
 console.log(newNumbers);

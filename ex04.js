@@ -4,6 +4,11 @@
 
 function sumOfDigits(n) {
   // Your code here
+  if (n.length > 0) {
+
+    return n.pop() + sumOfDigits(n)
+  }
+  return 0
 }
 
 console.log(sumOfDigits([1, 3, 7, 1, 8])); // 20
